@@ -3,7 +3,9 @@
     padding: 0px;
 }
 body{
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+
 }
 .header{
     background-color: white;
