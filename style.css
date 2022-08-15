@@ -18,7 +18,7 @@ body{
 #navbar-header{
     background-color: #f5eeee;
     position: fixed;
-    top: -50px;
+    top: -100px;
     width: 100%;
     display: block;
     transition: top 0.3s;
@@ -574,6 +574,7 @@ about section */
         width: 250px;
         margin-top: 10px;
     }
+  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -596,6 +597,8 @@ about section */
         width: 250px;
         margin-top: 10px;
     }
+
+    
    
 }
 

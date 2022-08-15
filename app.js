@@ -22,7 +22,7 @@ function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("navbar-header").style.top = "0";
   } else {
-    document.getElementById("navbar-header").style.top = "-100px";
+    document.getElementById("navbar-header").style.top = "-250px";
   }
 }
 
