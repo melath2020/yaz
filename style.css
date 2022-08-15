@@ -16,12 +16,13 @@ body{
     
 }
 #navbar{
-    background-color: white;
+    background-color: #f5eeee;
     position: fixed;
     top: -50px;
     width: 100%;
     display: block;
     transition: top 0.3s;
+    
     
 }
 .footer-color{
