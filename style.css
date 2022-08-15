@@ -185,7 +185,7 @@ text-align: center;
 .mobile-nav{
     display: flex;
     flex-flow: column;
-    width: 85%;
+    width: 90%;
     align-items: center;
     justify-content: center;
     background: rgb(255, 255, 255);
