@@ -175,7 +175,7 @@ text-align: center;
 .mobile-nav-wrapper{
     display: none;
     position: fixed;
-    width:100%;
+    width:fit-content;
     left: 0;
     right: 0;
   z-index: 1;
