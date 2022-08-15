@@ -15,7 +15,7 @@ body{
     margin-top: 0;
     
 }
-#navbar{
+#navbar-header{
     background-color: #f5eeee;
     position: fixed;
     top: -50px;
