@@ -5,6 +5,8 @@
 body{
     font-family: 'Montserrat', sans-serif;
     width: 100%;
+    
+     
 
 }
 .header{
@@ -161,6 +163,7 @@ body{
 .hero{
     margin-top:40px;
     margin-bottom: 40px;
+    
 }
 .left{
 height: 100%;
