@@ -23,8 +23,36 @@
 
 <body>
     <!-- header -->
-    <div class="header "  >
-        <div class="container header-wrapper">
+    <div class="header" id="navbar" >
+        <div class="container header-wrapper" >
+            <div class="logo ">
+                <img src="assets/images/logo.png" class="logo" alt="logo-image">
+
+            </div>
+            <div class="links">
+                <ul class="links snip1198">
+                    <li><a href="#HOME" data-hover="Home">Home</a></li>
+                    <li><a href="#ABOUTUS" data-hover="About Us">About Us</a></li>
+                    <li><a href="#SERVICE" data-hover="Services">Services</a></li>
+                    <li><a href="#WORKS" data-hover="Works">Works</a></li>
+                    <li><a href="#CONTACT" data-hover="Contact">Contact us</a></li>
+                </ul>
+            </div>
+
+            <div class="main-button">
+                <button class="my-btn">Get Started</button>
+            </div>
+            <div class="menu ">
+                <img src="assets/images/icon-hamburger.svg" alt="menu-btn" id="nav-btn">
+                <img src="assets/images/icon-close.svg" alt="close-btn" id="close-btn">
+            </div>
+        </div>
+        <div class="footer-color"></div>
+    </div>
+
+      <!-- header -->
+      <div class="header">
+        <div class="container header-wrapper" >
             <div class="logo ">
                 <img src="assets/images/logo.png" class="logo" alt="logo-image">
 
@@ -325,5 +353,6 @@
 </body>
 <script>
     AOS.init();
+    scrollFunction();
   </script>
 </html>

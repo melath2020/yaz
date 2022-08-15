@@ -10,11 +10,18 @@ body{
 .header{
     background-color: white;
     transition: top 0.1s;
-    /* position: fixed; */
-    top: -10px;
     width: 100%;
     z-index: 1;
     margin-top: 0;
+    
+}
+#navbar{
+    background-color: white;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
     
 }
 .footer-color{
@@ -28,12 +35,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    background-color: white;
-    top: -10px;
-   
-    z-index: 1;
-    margin-top: 0;
+ 
   
 }
 .logo{
@@ -156,8 +158,8 @@ body{
 
 /* hero */
 .hero{
-    margin-top:140px;
-    margin-bottom: 20px;
+    margin-top:40px;
+    margin-bottom: 40px;
 }
 .left{
 height: 100%;
