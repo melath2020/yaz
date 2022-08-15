@@ -6,8 +6,13 @@ body{
     font-family: 'Montserrat', sans-serif
 }
 .header{
-    position: relative;
-   
+    background-color: white;
+    transition: top 0.3s;
+    position: fixed;
+    top: -5px;
+    z-index: 1;
+    width: 100%;
+    margin-top: 0;
     
 }
 .footer-color{
