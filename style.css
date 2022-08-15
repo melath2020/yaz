@@ -4,7 +4,7 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    width: 100%;
+   
 
 }
 .header{
@@ -12,8 +12,8 @@ body{
     transition: top 0.1s;
     position: fixed;
     top: -10px;
-    z-index: 1;
     width: 100%;
+    z-index: 1;
     margin-top: 0;
     
 }
@@ -519,7 +519,7 @@ about section */
         position: fixed;
         top: 0px;
         z-index: 1;
-        width: 100%;
+        
         margin-top: 0;
         
     }
