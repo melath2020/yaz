@@ -515,7 +515,7 @@ about section */
 @media only screen and (max-width: 600px) {
     .header{
         background-color: white;
-        transition: top 0.1s;
+        
         position: fixed;
         top: 0px;
         z-index: 1;
