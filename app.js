@@ -19,7 +19,7 @@ close.addEventListener('click',function(e){
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
     document.getElementById("navbar-header").style.top = "0";
   } else {
     document.getElementById("navbar-header").style.top = "-250px";
