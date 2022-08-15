@@ -434,12 +434,12 @@ about section */
 /* .contact-section */
 .contact{
     background: #f7dac22c;
-    padding: 5px 5px;
+    padding: 2px 0px;
     margin-top: 20px;
 }
 .contact-section{
     margin-top: 0px;
-    padding-left: 40px;
+    padding-left: 15px;
     padding-right: 40px;
 }
 .footer-menu h4{
