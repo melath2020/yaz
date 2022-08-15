@@ -7,9 +7,9 @@ body{
 }
 .header{
     background-color: white;
-    transition: top 0.3s;
+    transition: top 0.1s;
     position: fixed;
-    top: -5px;
+    top: -10px;
     z-index: 1;
     width: 100%;
     margin-top: 0;
@@ -149,7 +149,7 @@ body{
 
 /* hero */
 .hero{
-    margin-top:50px;
+    margin-top:140px;
     margin-bottom: 20px;
 }
 .left{
@@ -511,6 +511,20 @@ about section */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .header{
+        background-color: white;
+        transition: top 0.1s;
+        position: fixed;
+        top: 0px;
+        z-index: 1;
+        width: 100%;
+        margin-top: 0;
+        
+    }
+    .hero{
+        margin-top:80px;
+        margin-bottom: 20px;
+    }
     .links, .my-btn{
         display: none;
     }
