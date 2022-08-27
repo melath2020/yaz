@@ -10,6 +10,7 @@ body{
 
 }
 .header{
+    position: relative;
     background-color: white;
     transition: top 0.1s;
     width: 100%;
@@ -20,8 +21,9 @@ body{
 #navbar-header{
     background-color: #f5eeee;
     position: fixed;
+    
     top: -100px;
-    width: 100%;
+    width:100vw;
     display: block;
     transition: top 0.3s;
     
@@ -42,8 +44,9 @@ body{
   
 }
 .logo{
-    width: 250px;
+    width: 350px;
     margin-top: 10px;
+   
 }
 
 
@@ -186,7 +189,7 @@ text-align: center;
 .mobile-nav-wrapper{
     display: none;
     position: fixed;
-    width:100%;
+    width:100vw;
     left: 0;
     right: 0;
   z-index: 1;
@@ -197,7 +200,7 @@ text-align: center;
 .mobile-nav{
     display: flex;
     flex-flow: column;
-    width: 90%;
+    width: 100vw;
     align-items: center;
     justify-content: center;
     background: rgb(255, 255, 255);
